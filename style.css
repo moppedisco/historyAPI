@@ -1,0 +1,20 @@
+.page { width: 100%; }
+.head { background: #eee; border-bottom: 1px solid #ddd; padding: 15px 15px 0 15px; }
+.body { position: relative; }
+.foot { background: #eee; border-top: 1px solid #ddd; padding: 15px; } 
+nav { display: block; background: #ccc; margin: 0 -15px; padding: 0 15px; }
+nav a { color: blue; }
+nav a + a { margin-left: 10px; }
+
+.articleContent { display: none; position: absolute; top: 0; z-index: 1; background: #000; color: #FFF; width: 100%; height: 100%; padding: 15px; }
+
+.article-list { margin: 0; padding: 0; list-style: none; }
+.article-list li { color: #fff; padding: 0; }
+.article-list li a { padding: 25px;display: inline-block; width: 100%; height: 800px; }
+.article-list li:nth-child(1) { background: #e8846b; }
+.article-list li:nth-child(2) { background: #16528e; }
+.article-list li:nth-child(3) { background: #e54b4b; }
+.article-list li:nth-child(4) { background: #a2c5bf; }
+.article-list li:nth-child(5) { background: #167c80; }
+.article-list li:nth-child(6) { background: #0082c8; }
+.article-list li:hover { }
